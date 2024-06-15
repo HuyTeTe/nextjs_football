@@ -1,0 +1,100 @@
+@import "../mixins";
+
+.bot-background {
+    background-image: url("/images/bot_list_2.avif");
+    height: 100%;
+    background-position: center;
+    background-repeat: repeat;
+    // background-size: cover;
+    padding: 2rem;
+}
+
+.list-title {
+    font-weight: bold;
+    background-color: $color_bot_background !important;
+    box-shadow: 0px 0px 0px #2b9348 !important;
+}
+
+.card-attribute {
+    font-weight: bold;
+    color: white;
+    background-color: $color_bot_background !important;
+    box-shadow: 0px 0px 0px #80b918 !important;
+}
+
+.bg-win-full {
+    outline: solid 3px white;
+    outline-offset: -3px;
+    background-color: #7cb518 !important;
+    box-shadow: 0px 0px 0px #7cb518 !important;
+}
+
+.bg-win-half {
+    outline: solid 3px white;
+    outline-offset: -3px;
+    background-color: #a5be00 !important;
+    box-shadow: 0px 0px 0px #a5be00 !important;
+}
+
+.bg-lose-full {
+    outline: solid 3px white;
+    outline-offset: -3px;
+    background-color: #d62828 !important;
+    box-shadow: 0px 0px 0px #d62828 !important;
+}
+
+.bg-lose-half {
+    outline: solid 3px white;
+    outline-offset: -3px;
+    background-color: #bc4749 !important;
+    box-shadow: 0px 0px 0px #bc4749 !important;
+}
+
+.bg-draw {
+    outline: solid 3px white;
+    outline-offset: -3px;
+    background-color: #bb9457 !important;
+    box-shadow: 0px 0px 0px #bb9457 !important;
+}
+
+.bg-undefined {
+    outline: solid 3px white;
+    outline-offset: -3px;
+    background-color: #5e548e !important;
+    box-shadow: 0px 0px 0px #5e548e !important;
+}
+
+.win-status {
+    color: #38b000;
+    font-weight: bold;
+}
+
+.lose-status {
+    color: #ff686b;
+    font-weight: bold;
+}
+
+.league-time-title {
+    background-color: #4a5759 !important;
+    box-shadow: 0px 0px 0px #4a5759 !important;
+}
+
+.btn-user-bot {
+    display: inline-flex;
+    align-items: center;
+    background-color: #c7f9cc;
+    text-align: center;
+    justify-content: center;
+    border: 3px solid green;
+    vertical-align: middle;
+    font-size: 1.2rem;
+    padding: 2px 0.5rem;
+    border-radius: 10px;
+    transition: all 0.2s;
+    margin-left: 15px;
+}
+
+.btn-user-bot:hover {
+    background-color: #3a5a40;
+    color: white;
+}

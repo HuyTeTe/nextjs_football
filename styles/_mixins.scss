@@ -1,0 +1,46 @@
+$breakpoint_sm: "only screen and (max-width : 768px)";
+$breakpoint_md: "only screen and (max-width : 992px)";
+$breakpoint_lg: "only screen and (max-width : 1024px)";
+$breakpoint_desktop: "only screen and (min-width : 1024px)";
+$color_background_bling: "green";
+$color_main_1: #fcedc2;
+$color_main_2: #c4c3c0;
+$color_nav_bar: #008000;
+$color_footer_page: #a7c957;
+$color_bot_background: #1c7c54;
+// $breakpoint: $breakpoint-sm, $breakpoint-md, $breakpoint-lg;
+
+@mixin desktop() {
+    @media (max-width: 600px) {
+        @content;    
+    }
+}
+
+@mixin desktopAvatarContainer($breakpoint...) {
+    @each $point in $breakpoint {
+        @media #{$point} {
+          @content($point);
+        }
+      }
+}
+
+@mixin desktopMatchList($breakpoint...) {
+  @each $point in $breakpoint {
+      @media #{$point} {
+        @content($point);
+      }
+    }
+}
+
+.base-layout {
+  margin-top: 90px;
+}
+
+.h1-title {
+  margin-top: 105px;
+  color: white;
+  background-color: $color_bot_background;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  padding: 5px;
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+     <url>
+       <loc>https://www.footballee.com</loc>
+       <lastmod>2023-11-01</lastmod>
+     </url>
+     <url>
+       <loc>https://www.footballee.com/bot</loc>
+       <lastmod>2023-11-01</lastmod>
+     </url>
+     <url>
+       <loc>https://www.footballee.com/bot/my-bot</loc>
+       <lastmod>2023-11-01</lastmod>
+     </url>
+     <url>
+       <loc>https://www.footballee.com/customer/login</loc>
+       <lastmod>2023-11-01</lastmod>
+     </url>
+     <url>
+       <loc>https://www.footballee.com/livescore</loc>
+       <lastmod>2023-11-01</lastmod>
+     </url>
+     <url>
+       <loc>https://www.footballee.com/policy/aboutus</loc>
+       <lastmod>2023-11-01</lastmod>
+     </url>
+     <url>
+       <loc>https://www.footballee.com/policy/term</loc>
+       <lastmod>2023-11-01</lastmod>
+     </url>
+</urlset>

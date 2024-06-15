@@ -1,0 +1,25 @@
+@import "../mixins";
+
+.login-form {
+    width: 300px;
+    height: 40vh;
+    margin: 100px auto;
+    padding: 10px 20px;
+    text-align: center;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, .4);
+    border-radius: 5px;
+
+
+    h3 {
+        text-transform: uppercase;
+    }
+}
+
+.img-login {
+    background: $color_main_1;
+    border: 1px solid $color_main_2;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10vh;
+    padding: 3px;
+}

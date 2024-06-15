@@ -1,0 +1,45 @@
+{
+                        HEADER_ITEMS.map((tabObj) => (
+                          tabObj.hasChildren ?
+                          <NavDropdown
+                            title={tabObj.name} id={`offcanvasNavbarDropdown-expand-${expand}`} >
+                            <NavDropdown.Divider />
+                            {
+                              tabObj.children.map((child) => (
+                                <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+                              ))
+                            }
+                          </NavDropdown>
+                          :
+                          <Nav.Link className='text-dark p-4' href="#action1">{tabObj.name}</Nav.Link>
+                        ))
+                      }
+
+return (
+    size.width > 578 ? 
+    <span className={styles['tab-container']}>
+        <a className={styles['sticky-selected']}>Left</a>
+        <a>Middle</a>
+        <a>Test1</a>
+        <span>{size.width}px / {size.height}px</span>
+    </span>
+    :
+    <span className={styles['tab-container']}>
+        <a className={styles['sticky-selected']}>Left</a>
+        <a>Test1</a>
+        <Popover disableAnimation>
+          <Popover.Trigger>
+            <Button animated={false} auto flat color="light">
+              View More 
+              <FontAwesomeIcon
+                icon={faList}
+                style={{ fontSize: 16, color: "black", marginLeft: 10 }}
+              />
+            </Button>
+          </Popover.Trigger>
+          <Popover.Content>
+            <Text css={{ p: "$10" }}>This is the content of the popover. </Text>
+          </Popover.Content>
+        </Popover>
+    </span>
+  )

@@ -1,0 +1,37 @@
+@import "../mixins";
+
+.filter-box {
+    select {
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    input {
+        margin-top: 26px;
+    }
+
+    button {
+        margin-top: 26px;
+    }
+}
+
+.button-search {
+    background-color: #2176ff;
+    text-align: center;
+    color: white;
+    position: fixed;
+    margin-top: 400px;
+    z-index: 999;
+    width: 77px;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    line-height: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    border: #ecf39e 2px solid;
+    opacity: 0.9;
+}

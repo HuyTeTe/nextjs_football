@@ -1,0 +1,46 @@
+@import "../mixins";
+
+.home-page {
+    margin-top: 90px;
+    background-color: #a3b18a;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.carousel-homepage {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    
+    // @include desktopAvatarContainer($breakpoint_sm, $breakpoint_md, $breakpoint_desktop) using ($point) {
+    //     @if $point == $breakpoint_sm {
+    //         width: 100%;
+    //     }
+    //     @elseif $point == $breakpoint_md {
+    //         width: 90%;
+    //     }
+    //     @elseif $point == $breakpoint_desktop {
+    //         width: 66%;
+    //     }
+    // }
+}
+
+.carousel-homepage-item {
+    width: 100%;
+    height: 100%;
+    // @include desktopAvatarContainer($breakpoint_sm, $breakpoint_md, $breakpoint_desktop) using ($point) {
+    //     @if $point == $breakpoint_sm {
+    //         height: 200px;
+    //     }
+    //     @elseif $point == $breakpoint_md {
+    //         height: 266px;
+    //     }
+    //     @elseif $point == $breakpoint_desktop {
+    //         height: 560px;
+    //     }
+    // }
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
